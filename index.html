@@ -1,291 +1,285 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Moe's Cheat Sheet</title>
-</head>
-<body>
-    <h1>Moe's Cheat Sheet</h1>
-    <div class="table">
-    <h2>HTML</h2>
-    <table>
-        <thead>
-            <tr>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Moe's Cheat Sheet</title>
+    </head>
+    <body>
+        <h1>Moe's Cheat Sheet</h1>
+
+        <div class="table">
+        <h2>HTML</h2>
+        <table>
+            <thead>
                 <th>Tag</th>
                 <th>Name</th>
                 <th>Description</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-              <td>&lt;strong&gt; &lt;/strong&gt;</td>
-              <td>Strong</td>
-              <td>Maket text bolder</td>  
-            </tr>
-            <tr>
-                <td>&lt;em&gt; &lt;/em&gt;</td>
-                <td>Italic</td>
-                <td>Make text style italic</td>
-            </tr>
-            <tr>
-                <td>&lt;br&gt;</td>
-                <td>Line breaks</td>
-                <td>Leave spacing between code</td>
-            </tr>
-            <tr>
-                <td>&lt;ul&gt; &lt;/ul&gt;</td>
-                <td>Unorderd list</td>
-                <td>Make bullted list</td>
-            </tr>
-            <tr>
-                <td>&lt;ol&gt; &lt;/ol&gt;</td>
-                <td>Orderd list</td>
-                <td>Make numberd list</td>
-            </tr>
-            <tr>
-                <td>&lt;img src="#" alt="text"&gt;</td>
-                <td>Image</td>
-                <td>add image with alt text</td>
-            </tr>
-            <tr>
-                <td>&lt;video src="#" width="number" height="number" controls&gt; &lt;/video&gt;</td>
-                <td>Video</td>
-                <td>Add video with controls</td>
-            </tr>
-            <tr>
-                <td>&lt;!DOCTYPE html&gt;</td>
-                <td>Declaration</td>
-                <td>Declare html code when start</td>
-            </tr>
-            <tr>
-                <td>&lt;html&gt; &lt;/html&gt;</td>
-                <td>Html Tags</td>
-                <td>Begining of html</td>
-            </tr>
-            <tr>
-                <td>&lt;title&gt; &lt;/title&gt;</td>
-                <td>Page title</td>
-                <td>Add title to the tab/page</td>
-            </tr>
-            <tr>
-                <td>&lt;a href="#" &gt; &lt;/a&gt;</td>
-                <td>Link</td>
-                <td>add link as a text</td>
-            </tr>
-            <tr>
-                <td>&lt;a href="#" target="_blank"&gt; &lt;/a&gt;</td>
-                <td>New tab link</td>
-                <td>add link and open as a new tab</td>
-            </tr>
-            <tr>
-                <td>./#</td>
-                <td>Link relative page</td>
-                <td>link for realtive page in the same file</td>
-            </tr>
-            <tr>
-                <td>&lt;a&gt; &lt;img&gt; &lt;/img&gt; &lt;/a&gt;</td>
-                <td>Linking Image</td>
-                <td>add link to an image</td>
-            </tr>
-            <tr>
-                <td>&lt;a href="#id"&gt; &lt;/a&gt;</td>
-                <td>Linking in the same page(scroll)</td>
-                <td>Linking to scroll to specific section(id must be added to section to work)</td>
-            </tr>
-            <tr>
-                <td>&lt;!-- text --!&gt;</td>
-                <td>Comments</td>
-                <td>Comment section out (won't show up in the page content)</td>
-            </tr>
-            <tr>
-                <td>&lt;table&gt; &lt;/table&gt;</td>
-                <td>Table</td>
-                <td>Intiate table</td>
-            </tr>
-            <tr>
-                <td>&lt;thead&gt; &lt;/thead&gt;</td>
-                <td>Table Heading</td>
-                <td>Create table heading(section)</td>
-            </tr>
-            <tr>
-                <td>&lt;tr&gt; &lt;/tr&gt;</td>
-                <td>Table Row</td>
-                <td>Create table row(vertical)</td>
-            </tr>
-            <tr>
-                <td>&lt;th&gt; &lt;/th&gt;</td>
-                <td>Table data</td>
-                <td>add table data for heading (horizontal)</td>
-            </tr>
-            <tr>
-                <td>&lt;tbody&gt; &lt;/tbody&gt;</td>
-                <td>Table body</td>
-                <td>Add table body (section)</td>  
-            </tr>
-            <tr>
-                <td>&lt;td&gt; &lt;/td&gt;</td>
-                <td>Table data</td>
-                <td>Add table data (horizontal)</td>
-            </tr>
-            <tr>
-                <td>&lt;nav&gt; &lt;/nav&gt;</td>
-                <td>Navigation</td>
-                <td>Section for navigation bar</td>
-            </tr>
-            <tr>
-                <td>&lt;main&gt; &lt;/main&gt;</td>
-                <td>Main Section</td>
-                <td>Add main section comes after the head section and before the footer section</td>
-            </tr>
-            <tr>
-                <td>&lt;section&gt; &lt;/section&gt;</td>
-                <td>Section</td>
-                <td>Add section work same as div block</td>
-            </tr>
-            <tr>
-                <td>&lt;article&gt; &lt;/article&gt;</td>
-                <td>Article</td>
-                <td>Artical section used for blog post and can include paragraph</td>
-            </tr>
-            <tr>
-                <td>&lt;aside&gt; &lt;/aside&gt;</td>
-                <td>Aside</td>
-                <td>another usless tag to create section</td>
-            </tr>
-            <tr>
-                <td>&lt;figure&gt; &lt;/figure&gt;</td>
-                <td>Figure</td>
-                <td>useless section to include medai content such as image</td>
-            </tr>
-            <tr>
-                <td>&lt;figcaption&gt; &lt;/figcaption&gt;</td>
-                <td>Fig Caption</td>
-                <td>Used inside &lt;figure&gt; to add text after adding the media</td>
-            </tr>
-            <tr>
-                <td>&lt;audio autoplay controls&gt; &lt;source src="#"&gt; &lt;/audio&gt;</td>
-                <td>Audio</td>
-                <td>add audio</td>
-            </tr>
-            <tr>
-                <td>&lt;embed src="#"&gt;</td>
-                <td>Embed (gif)</td>
-                <td>used to add gif media file</td>
-            </tr>
-            <tr>
-                <td>&lt;link href="#" rel="stylesheet"&gt;</td>
-                <td>Linking Style Sheet</td>
-                <td>link style sheet to html, this section should be under head section</td>
-            </tr>
-        </tbody>
-    </table>
-    </div>
+            </thead>
+            <tbody>
+                <tr>
+                <td>&lt;strong&gt; &lt;/strong&gt;</td>
+                <td>Strong</td>
+                <td>Maket text bolder</td>  
+                </tr>
+                <tr>
+                    <td>&lt;em&gt; &lt;/em&gt;</td>
+                    <td>Italic</td>
+                    <td>Make text style italic</td>
+                </tr>
+                <tr>
+                    <td>&lt;br&gt;</td>
+                    <td>Line breaks</td>
+                    <td>Leave spacing between code</td>
+                </tr>
+                <tr>
+                    <td>&lt;ul&gt; &lt;/ul&gt;</td>
+                    <td>Unorderd list</td>
+                    <td>Make bullted list</td>
+                </tr>
+                <tr>
+                    <td>&lt;ol&gt; &lt;/ol&gt;</td>
+                    <td>Orderd list</td>
+                    <td>Make numberd list</td>
+                </tr>
+                <tr>
+                    <td>&lt;img src="#" alt="text"&gt;</td>
+                    <td>Image</td>
+                    <td>add image with alt text</td>
+                </tr>
+                <tr>
+                    <td>&lt;video src="#" width="number" height="number" controls&gt; &lt;/video&gt;</td>
+                    <td>Video</td>
+                    <td>Add video with controls</td>
+                </tr>
+                <tr>
+                    <td>&lt;!DOCTYPE html&gt;</td>
+                    <td>Declaration</td>
+                    <td>Declare html code when start</td>
+                </tr>
+                <tr>
+                    <td>&lt;html&gt; &lt;/html&gt;</td>
+                    <td>Html Tags</td>
+                    <td>Begining of html</td>
+                </tr>
+                <tr>
+                    <td>&lt;title&gt; &lt;/title&gt;</td>
+                    <td>Page title</td>
+                    <td>Add title to the tab/page</td>
+                </tr>
+                <tr>
+                    <td>&lt;a href="#" &gt; &lt;/a&gt;</td>
+                    <td>Link</td>
+                    <td>add link as a text</td>
+                </tr>
+                <tr>
+                    <td>&lt;a href="#" target="_blank"&gt; &lt;/a&gt;</td>
+                    <td>New tab link</td>
+                    <td>add link and open as a new tab</td>
+                </tr>
+                <tr>
+                    <td>./#</td>
+                    <td>Link relative page</td>
+                    <td>link for realtive page in the same file</td>
+                </tr>
+                <tr>
+                    <td>&lt;a&gt; &lt;img&gt; &lt;/img&gt; &lt;/a&gt;</td>
+                    <td>Linking Image</td>
+                    <td>add link to an image</td>
+                </tr>
+                <tr>
+                    <td>&lt;a href="#id"&gt; &lt;/a&gt;</td>
+                    <td>Linking in the same page(scroll)</td>
+                    <td>Linking to scroll to specific section(id must be added to section to work)</td>
+                </tr>
+                <tr>
+                    <td>&lt;!-- text --!&gt;</td>
+                    <td>Comments</td>
+                    <td>Comment section out (won't show up in the page content)</td>
+                </tr>
+                <tr>
+                    <td>&lt;table&gt; &lt;/table&gt;</td>
+                    <td>Table</td>
+                    <td>Intiate table</td>
+                </tr>
+                <tr>
+                    <td>&lt;thead&gt; &lt;/thead&gt;</td>
+                    <td>Table Heading</td>
+                    <td>Create table heading(section)</td>
+                </tr>
+                <tr>
+                    <td>&lt;tr&gt; &lt;/tr&gt;</td>
+                    <td>Table Row</td>
+                    <td>Create table row(vertical)</td>
+                </tr>
+                <tr>
+                    <td>&lt;th&gt; &lt;/th&gt;</td>
+                    <td>Table data</td>
+                    <td>add table data for heading (horizontal)</td>
+                </tr>
+                <tr>
+                    <td>&lt;tbody&gt; &lt;/tbody&gt;</td>
+                    <td>Table body</td>
+                    <td>Add table body (section)</td>  
+                </tr>
+                <tr>
+                    <td>&lt;td&gt; &lt;/td&gt;</td>
+                    <td>Table data</td>
+                    <td>Add table data (horizontal)</td>
+                </tr>
+                <tr>
+                    <td>&lt;nav&gt; &lt;/nav&gt;</td>
+                    <td>Navigation</td>
+                    <td>Section for navigation bar</td>
+                </tr>
+                <tr>
+                    <td>&lt;main&gt; &lt;/main&gt;</td>
+                    <td>Main Section</td>
+                    <td>Add main section comes after the head section and before the footer section</td>
+                </tr>
+                <tr>
+                    <td>&lt;section&gt; &lt;/section&gt;</td>
+                    <td>Section</td>
+                    <td>Add section work same as div block</td>
+                </tr>
+                <tr>
+                    <td>&lt;article&gt; &lt;/article&gt;</td>
+                    <td>Article</td>
+                    <td>Artical section used for blog post and can include paragraph</td>
+                </tr>
+                <tr>
+                    <td>&lt;aside&gt; &lt;/aside&gt;</td>
+                    <td>Aside</td>
+                    <td>another usless tag to create section</td>
+                </tr>
+                <tr>
+                    <td>&lt;figure&gt; &lt;/figure&gt;</td>
+                    <td>Figure</td>
+                    <td>useless section to include medai content such as image</td>
+                </tr>
+                <tr>
+                    <td>&lt;figcaption&gt; &lt;/figcaption&gt;</td>
+                    <td>Fig Caption</td>
+                    <td>Used inside &lt;figure&gt; to add text after adding the media</td>
+                </tr>
+                <tr>
+                    <td>&lt;audio autoplay controls&gt; &lt;source src="#"&gt; &lt;/audio&gt;</td>
+                    <td>Audio</td>
+                    <td>add audio</td>
+                </tr>
+                <tr>
+                    <td>&lt;embed src="#"&gt;</td>
+                    <td>Embed (gif)</td>
+                    <td>used to add gif media file</td>
+                </tr>
+                <tr>
+                    <td>&lt;link href="#" rel="stylesheet"&gt;</td>
+                    <td>Linking Style Sheet</td>
+                    <td>link style sheet to html, this section should be under head section</td>
+                </tr>
+            </tbody>
+        </table>
+        </div>
 
-    <div class="table">
-    <h2>CSS</h2>
-    <table>
-        <thead>
-            <tr>
-                <th>Tag</th>
-                <th>Description</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>text-aline: left/right/center/justify</td>
-                <td>Note: justify spaces out text in order to align with the right and left side of the parent element</td>
-            </tr>
-            <tr>
-                <td>attribute: value !important;</td>
-                <td>override all other styles if added to css selectors</td>
-            </tr>
-            <tr>
-                <td>border: 3px solid blue;</td>
-                <td>assign border thicknes of it and its color</td>
-            </tr>
-            <tr>
-                <td>(4 values) Top right left bottom</td>
-                <td>using 4 values should be assigned from top to right clockwise</td>
-            </tr>
-            <tr>
-                <td>(3 values) Top right/left bottom</td>
-                <td>using 3 values will assign top firs then right and left together then bottom</td>
-            </tr>
-            <tr>
-                <td>Margin top and bottom between 2 elements</td>
-                <td>Margin uses the highest margin value and doesn't get added up to both margin between 2 element on top of each other</td>
-            </tr>
-            <tr>
-                <td>box-sizeing: border-box;</td>
-                <td>content of the box will be subtract from the inside</td>
-            </tr>
-            <tr>
-                <td>box-sizeing: content-box;</td>
-                <td>content of the box will be subtract from the outside</td>
-            </tr>
-            <tr>
-                <td>postion: relative/absolute/fixed/sticky;</td>
-                <td>type of postioning in css</td>
-            </tr>
-            <tr>
-                <td>z-index: 1;</td>
-                <td>depth of content based on number assigned</td>
-            </tr>
-            <tr>
-                <td>display: inline-block</td>
-                <td>Spread out element on the same line used for nav bar</td>
-            </tr>
-            <tr>
-                <td>float: right;</td>
-                <td>will make an element stick to whatever side assigned on</td>
-            </tr>
-            <tr>
-                <td>claer: left;</td>
-                <td>will make the element side assigned clear of content</td>
-            </tr>
-        </tbody>
-    </table>
-</table>
-</div>
+        <div class="table">
+        <h2>CSS</h2>
+        <table>
+            <thead>
+                    <th>Tag</th>
+                    <th>Description</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>text-aline: left/right/center/justify</td>
+                    <td>Note: justify spaces out text in order to align with the right and left side of the parent element</td>
+                </tr>
+                <tr>
+                    <td>attribute: value !important;</td>
+                    <td>override all other styles if added to css selectors</td>
+                </tr>
+                <tr>
+                    <td>border: 3px solid blue;</td>
+                    <td>assign border thicknes of it and its color</td>
+                </tr>
+                <tr>
+                    <td>(4 values) Top right left bottom</td>
+                    <td>using 4 values should be assigned from top to right clockwise</td>
+                </tr>
+                <tr>
+                    <td>(3 values) Top right/left bottom</td>
+                    <td>using 3 values will assign top firs then right and left together then bottom</td>
+                </tr>
+                <tr>
+                    <td>Margin top and bottom between 2 elements</td>
+                    <td>Margin uses the highest margin value and doesn't get added up to both margin between 2 element on top of each other</td>
+                </tr>
+                <tr>
+                    <td>box-sizeing: border-box;</td>
+                    <td>content of the box will be subtract from the inside</td>
+                </tr>
+                <tr>
+                    <td>box-sizeing: content-box;</td>
+                    <td>content of the box will be subtract from the outside</td>
+                </tr>
+                <tr>
+                    <td>postion: relative/absolute/fixed/sticky;</td>
+                    <td>type of postioning in css</td>
+                </tr>
+                <tr>
+                    <td>z-index: 1;</td>
+                    <td>depth of content based on number assigned</td>
+                </tr>
+                <tr>
+                    <td>display: inline-block</td>
+                    <td>Spread out element on the same line used for nav bar</td>
+                </tr>
+                <tr>
+                    <td>float: right;</td>
+                    <td>will make an element stick to whatever side assigned on</td>
+                </tr>
+                <tr>
+                    <td>claer: left;</td>
+                    <td>will make the element side assigned clear of content</td>
+                </tr>
+            </tbody>
+        </table>
+        </div>
 
-<div class="table">
-<h2>Command Prompt</h2>
-<table>
-    <thead>
-        <tr>
-            <th>Tag</th>
-            <th>Description</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>pwd</td>
-            <td>post working directory (show location)</td>
-        </tr>
-        <tr>
-            <td>ls</td>
-            <td>list directory items (show files in folder)</td>
-        </tr>
-        <tr>
-            <td>cd</td>
-            <td>move to selected folder</td>
-        </tr>
-        <tr>
-            <td>touch</td>
-            <td>create a file</td>
-        </tr>
-        <tr>
-            <td>mkdir</td>
-            <td>make directory (create a folder)</td>
-        </tr>
-    </tbody>
-</table>
-</div>
-</body>
+        <div class="table">
+        <h2>Command Prompt</h2>
+        <table>
+            <thead>
+                    <th>Tag</th>
+                    <th>Description</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>pwd</td>
+                    <td>post working directory (show location)</td>
+                </tr>
+                <tr>
+                    <td>ls</td>
+                    <td>list directory items (show files in folder)</td>
+                </tr>
+                <tr>
+                    <td>cd</td>
+                    <td>move to selected folder</td>
+                </tr>
+                <tr>
+                    <td>touch</td>
+                    <td>create a file</td>
+                </tr>
+                <tr>
+                    <td>mkdir</td>
+                    <td>make directory (create a folder)</td>
+                </tr>
+            </tbody>
+        </table>
+        </div>
+    </body>
 </html>
